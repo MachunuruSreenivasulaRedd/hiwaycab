@@ -6,7 +6,7 @@ const Home = () => {
             <Navbar collapseOnSelect expand="lg" className="navBack">
       <Container>
         <Navbar.Brand href="#home"><img src="https://hiwaycabs.com/wp-content/uploads/2022/07/HiWay-Logo-White-300x89.png" alt="brand" /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggler'/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#" className='item'>Home</Nav.Link>

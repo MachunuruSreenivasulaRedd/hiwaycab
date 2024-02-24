@@ -65,6 +65,10 @@
 .AboutContent{
     margin:70px;
 }
+.toggler{
+    color:white;
+    background-color: #ffffff;
+}
 .services{
     display: flex;
     align-items: center;
