@@ -11,7 +11,7 @@ const Home = () => {
           <Nav className="me-auto">
             <Nav.Link href="#" className='item'>Home</Nav.Link>
             <Nav.Link href="#pricing" className='item'>About Us</Nav.Link>
-            <NavDropdown title="Services" className='item' id="collapsible-nav-dropdown">
+            <NavDropdown title="Services" className="item" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#">Local Travel</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#">
@@ -66,9 +66,9 @@ const Home = () => {
               </NavDropdown.Item>
 
             </NavDropdown>
-            <Nav.Link href="#" className='item'>Testimonials</Nav.Link>
-            <Nav.Link href="#" className='item'>Blogs</Nav.Link>
-            <Nav.Link href="#" className='item'>Contact</Nav.Link>
+            <Nav.Link href="#test" className='item'>Testimonials</Nav.Link>
+            <Nav.Link href="#blogs" className='item'>Blogs</Nav.Link>
+            <Nav.Link href="#contact" className='item'>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

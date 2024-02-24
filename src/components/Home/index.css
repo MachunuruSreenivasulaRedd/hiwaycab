@@ -3,10 +3,25 @@
 }
 .navBack{
     background-color: #280015;
-    color:white!important;
+    color:white;
+}
+#collapsible-nav-dropdown{
+    color:white;
+}
+#collapsible-nav-dropdown:hover{
+    color: #ffd936;
 }
 .item,#item{
     color:white;
+}
+.item:hover{
+    color:#ffd936;
+}
+.item:selected{
+    color:#ffd936;
+}
+.item:visited{
+    color:#ffffff;
 }
 .bannerImg{
     width:100%;
