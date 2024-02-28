@@ -1,4 +1,4 @@
-import {Navbar,NavDropdown,Nav,Container} from 'react-bootstrap'
+import {Navbar,NavDropdown,Nav,Container, Carousel,ExampleCarouselImage} from 'react-bootstrap'
 import './index.css'
 const Home = () => {
     return(
@@ -138,7 +138,76 @@ Call- 8872711111 to book an efficient and comprehensive taxi service for a hassl
       <button className='viewBtn' type="button">View More</button>
       </div>
     </div>
-    <div className='typesOfCabs'></div>
+    <div className='typesOfCabs'>
+      <div className='sedanType'>
+        <h1 className='name'>Sedan</h1>
+        <Carousel>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/1-e1662810409939.jpg" className="carImg" alt="" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/2-e1662810420837.jpg" className="carImg" alt=""/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/3-e1662810432419.jpg" className="carImg" alt=""/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/1-e1662810409939.jpg" className="carImg" alt="" />
+      </Carousel.Item>
+    </Carousel>
+      </div>
+      <div className='premiumsedanType'>
+        <h1 className='name'>Premium Sedan</h1>
+        <Carousel>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/6-1.jpg" className="carImg" alt="" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/9-1.jpg" className="carImg" alt=""/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/10-1.jpg" className="carImg" alt=""/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/11.jpg" className="carImg" alt="" />
+      </Carousel.Item>
+    </Carousel>
+      </div>
+      <div className='premiumSuvType'>
+        <h1 className='name'>Premium Suv </h1>
+        <Carousel>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/2-1.png" className="carImg" alt="" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/4-2.jpg" className="carImg" alt=""/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/5-1.jpg" className="carImg" alt=""/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/7-2.jpg" className="carImg" alt="" />
+      </Carousel.Item>
+    </Carousel>
+      </div>
+      <div className='luxuryType'>
+        <h1 className='name'>Luxury</h1>
+        <Carousel>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/1-1.png" className="carImg" alt="" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/7-3.jpg" className="carImg"  alt=""/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/6-2.jpg" className="carImg" alt=""/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://hiwaycabs.com/wp-content/uploads/2022/09/9-2.jpg" className="carImg" alt="" />
+      </Carousel.Item>
+    </Carousel>
+      </div>
+    </div>
     <div className='about'>
       <h1 className='aboutHeadLine'>Book the Best Taxi Service in Chandigarh with HiWay Cabs for a seamless travel experience, every single time.</h1>
       <p className='AboutContent'>Chandigarh, also known as City beautiful, is a union territory in India. It is a beautiful destination which is often a stop on the way for avid travelers moving towards Himachal Pradesh or to explore the culturally rich state of Punjab.

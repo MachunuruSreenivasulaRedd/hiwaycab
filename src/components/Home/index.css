@@ -51,6 +51,20 @@
     margin-left:80px;
     margin-right:80px;
 }
+.carImg{
+    width:250px;
+    height:120px;
+}
+@media (min-width:768px){
+    .carImg{
+        width:
+    }
+}
+.typesOfCabs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .aboutSection{
     display: flex;
     flex-direction: column;
