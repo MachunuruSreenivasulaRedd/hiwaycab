@@ -21,10 +21,8 @@
     color: #005980;
 }
 .banner{
-    background-image: url("https://res.cloudinary.com/dollmqugm/image/upload/v1709200530/samples/landscapes/beach-boat.jpg");
-    background-size: cover;
-    width:100%;
-    height:650px;
+    background-color: #473d3a;
+    height:450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
