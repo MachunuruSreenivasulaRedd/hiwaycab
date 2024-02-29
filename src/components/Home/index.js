@@ -3,12 +3,12 @@ import './index.css'
 const Home = () => {
     return(
         <div className="mainContainer">
-            <Navbar collapseOnSelect expand="lg" className="navBack">
+            <Navbar collapseOnSelect expand="lg" bg="light" data-bs-theme="light">
       <Container>
-        <Navbar.Brand href="#home"><img src="https://hiwaycabs.com/wp-content/uploads/2022/07/HiWay-Logo-White-300x89.png" alt="brand" /></Navbar.Brand>
+        <Navbar.Brand href="#home"><img src="https://res.cloudinary.com/dollmqugm/image/upload/v1709200639/WhatsApp_Image_2024-02-29_at_2.52.42_PM_u6mkm6.jpg" className="logo" alt="brand" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggler'/>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto navBack">
             <Nav.Link href="#" className='item'>Home</Nav.Link>
             <Nav.Link href="#pricing" className='item'>About Us</Nav.Link>
             <NavDropdown title="Services" className="item" id="collapsible-nav-dropdown">
@@ -74,9 +74,13 @@ const Home = () => {
       </Container>
     </Navbar>
     <div className="banner">
-      <img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1708737999/hiway_zsui9z.png" className='bannerImg' alt="banner"/>
+      <div className='bannerContent'>
+        <h1 className='bannerHeader'>Welcome to Imandhar Tours and Travels</h1>
+        <p className='bannerQuote'>where we pave the way for successful tours and trips.</p>
+        <button className='bannerBtn' type="button">Read More</button>
+      </div>
     </div>
-    <div className='quote'>
+    {/* <div className='quote'>
       <h1 className='headLine'>Best Taxi Service in Chandigarh, Now Operational in Delhi & <br />Gurgaon!</h1>
       <hr />
       <p className='quoteContent'>
@@ -124,7 +128,7 @@ Call- 8872711111 to book an efficient and comprehensive taxi service for a hassl
           <p className='serviceName'>Cabs For Weddings & Events </p>
           </div>
           {/* <button type='button' className='bookBtn'>Book Now</button> */}
-      </div>
+      {/* </div>
     </div>
     <div className='reviewSection'>
     <h1 className='headLine reviewHeadLine'>Reviews from our Travellers</h1>
@@ -227,7 +231,7 @@ Depending on your specific travel needs, you can choose to hire a taxi in Chandi
   <li>Luxury Cabs on Rent In Chandigarh</li>
 </ol>
 </p>
-    </div>
+    </div> */} */}
         </div>
     )
 }
